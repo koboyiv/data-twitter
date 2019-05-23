@@ -10,7 +10,7 @@ screen_name = ['EmmaWatson', 'ArianaGrande', 'realDonaldTrump', 'gamthestar', 'j
 
 
 #connect to mongodb cloud
-myclient = pymongo.MongoClient("mongodb://admin:123456@mongodb-2568-0.cloudclusters.net:10001/")
+myclient = pymongo.MongoClient("mongodb://<username>:<password>@mongodb:<port>/")
 
 mydb = myclient['profile_user']
 profile = mydb['profile_user']
